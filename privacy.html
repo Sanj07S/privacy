@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Optarix</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // REPLACE THESE HEX CODES if you have specific ones from your main site
+                        optarix: {
+                            blue: '#1e293b',   /* Deep Navy Blue */
+                            cyan: '#06b6d4',   /* Bright Cyan */
+                            coral: '#f43f5e',  /* Red/Coral */
+                            purple: '#8b5cf6', /* Purple */
+                            dark: '#0f172a',   /* Darker Footer BG */
+                            light: '#f8fafc'   /* Light Page BG */
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['Inter', 'sans-serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        /* Smooth scrolling */
+        html { scroll-behavior: smooth; }
+        body { -webkit-font-smoothing: antialiased; }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased selection:bg-optarix-cyan selection:text-optarix-blue">
+
+    <nav id="navbar" style="background-color: #0a2463f2;" class="fixed w-full z-50 transition-all duration-300 bg-optarix-blue py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            
+            <a href="#" class="cursor-pointer font-heading font-extrabold text-2xl md:text-3xl tracking-wider text-white decoration-0">
+                OPTARIX<span class="text-optarix-cyan">.</span>
+            </a>
+
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="https://www.optarix.com" class="text-sm font-semibold text-gray-300 transition-colors duration-300 uppercase tracking-wide hover:text-optarix-cyan">Home</a>
+                <a href="https://www.optarix.com" class="text-sm font-semibold text-gray-300 transition-colors duration-300 uppercase tracking-wide hover:text-optarix-cyan">Services</a>
+                <a href="https://www.optarix.com" class="text-sm font-semibold text-gray-300 transition-colors duration-300 uppercase tracking-wide hover:text-optarix-cyan">Approach</a>
+                <a href="https://www.optarix.com" class="text-sm font-semibold text-gray-300 transition-colors duration-300 uppercase tracking-wide hover:text-optarix-cyan">Benefits</a>
+                <a href="https://www.optarix.com" class="text-sm font-semibold text-gray-300 transition-colors duration-300 uppercase tracking-wide hover:text-optarix-cyan">Difference</a>
+                <a href="https://www.optarix.com" class="text-sm font-semibold text-gray-300 transition-colors duration-300 uppercase tracking-wide hover:text-optarix-cyan">Contact</a>
+                
+                <a href="https://www.optarix.com" class="bg-optarix-coral hover:bg-red-500 text-white px-5 py-2 rounded-full text-sm font-bold transition-transform transform hover:scale-105 shadow-lg ml-4">
+                    Get Started
+                </a>
+            </div>
+
+            <div class="md:hidden">
+                <button id="mobile-menu-btn" class="text-white focus:outline-none">
+                    <i data-lucide="menu" id="menu-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="md:hidden absolute w-full bg-optarix-blue shadow-xl transition-all duration-300 overflow-hidden max-h-0 opacity-0">
+            <div class="flex flex-col items-center py-6 space-y-4">
+                <a href="https://www.optarix.com" class="text-lg font-medium text-white hover:text-optarix-cyan">Home</a>
+                <a href="https://www.optarix.com" class="text-lg font-medium text-white hover:text-optarix-cyan">Services</a>
+                <a href="https://www.optarix.com" class="text-lg font-medium text-white hover:text-optarix-cyan">Approach</a>
+                <a href="https://www.optarix.com" class="text-lg font-medium text-white hover:text-optarix-cyan">Benefits</a>
+                <a href="https://www.optarix.com" class="text-lg font-medium text-white hover:text-optarix-cyan">Difference</a>
+                <a href="https://www.optarix.com" class="text-lg font-medium text-white hover:text-optarix-cyan">Contact</a>
+                
+                <a href="https://www.optarix.com" class="bg-optarix-coral text-white px-8 py-3 rounded-full font-bold mt-4">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-24 bg-optarix-light min-h-screen">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100">
+                
+                <h1 class="text-3xl md:text-4xl font-heading font-bold text-optarix-blue mb-2">Privacy Policy</h1>
+                <div class="w-20 h-1 bg-optarix-coral rounded-full mb-10"></div>
+                
+                <div class="space-y-10 text-gray-700">
+                    
+                    <section>
+                        <h2 class="text-2xl font-bold text-optarix-blue mb-4 flex items-center">
+                            <span class="w-2 h-8 bg-optarix-cyan mr-3 rounded-full"></span>
+                            Information We Collect
+                        </h2>
+                        <p class="mb-4 text-lg">When you use our website or services, we collect:</p>
+                        <ul class="list-disc pl-6 space-y-2 marker:text-optarix-cyan">
+                            <li>Name, email, phone number, and company details from contact forms</li>
+                            <li>Browsing data like IP address, and pages visited</li>
+                            <li>Candidate resumes and professional information when providing recruitment services</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-optarix-blue mb-4 flex items-center">
+                            <span class="w-2 h-8 bg-optarix-purple mr-3 rounded-full"></span>
+                            How We Use Your Information
+                        </h2>
+                        <p class="mb-4 text-lg">We use your information to:</p>
+                        <ul class="list-disc pl-6 space-y-2 marker:text-optarix-purple">
+                            <li>Respond to your inquiries and schedule consultations</li>
+                            <li>Provide executive search and recruitment services</li>
+                            <li>Improve our website and AI-matching processes</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-optarix-blue mb-4 flex items-center">
+                            <span class="w-2 h-8 bg-optarix-coral mr-3 rounded-full"></span>
+                            Sharing Your Information
+                        </h2>
+                        <p class="mb-4 text-lg">We share information only with:</p>
+                        <ul class="list-disc pl-6 space-y-2 marker:text-optarix-coral">
+                            <li>Client companies during recruitment projects</li>
+                            <li>Service providers who help run our business</li>
+                            <li>Legal authorities when required by law</li>
+                        </ul>
+                    </section>
+                </div>
+                
+                <div class="mt-12 pt-8 border-t border-gray-100 flex justify-between items-center">
+                    <a href="https://www.optarix.com" class="inline-flex items-center font-bold text-optarix-blue hover:text-optarix-cyan transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+                        </svg>
+                        Back to Home
+                    </a>
+                    <p class="text-sm text-gray-400">Last Updated: 2026</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-optarix-dark text-white pt-16 pb-8 border-t border-white/10">
+        <div class="container mx-auto px-6">
+            
+            <div class="grid md:grid-cols-1 gap-8 mb-12">
+                <div>
+                    <h2 class="text-2xl font-heading font-extrabold tracking-wider text-white mb-4">
+                        OPTARIX<span class="text-optarix-cyan">.</span>
+                    </h2>
+                    <p class="text-gray-400 max-w-sm mb-6">
+                        AI-Enhanced Executive Search & Recruitment. 
+                        Predictable outcomes, scalable speed, and exceptional quality for modern enterprises.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.linkedin.com/in/sanjveen-singh-878715b2/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-optarix-cyan hover:text-optarix-blue transition-colors">
+                            <i data-lucide="linkedin" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+                <p>&copy; 2026 Optarix Research. All rights reserved.</p>
+                <div class="space-x-4 mt-4 md:mt-0">
+                    <a href="privacy.html" class="text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        // 1. Initialize Icons
+        lucide.createIcons();
+
+        // 2. Navbar Scroll Effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-optarix-blue/95', 'backdrop-blur-sm', 'shadow-lg', 'py-2');
+                navbar.classList.remove('py-4');
+            } else {
+                navbar.classList.remove('bg-optarix-blue/95', 'backdrop-blur-sm', 'shadow-lg', 'py-2');
+                navbar.classList.add('py-4');
+            }
+        });
+
+        // 3. Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const icon = document.getElementById('menu-icon');
+        let isOpen = false;
+
+        btn.addEventListener('click', () => {
+            isOpen = !isOpen;
+            if(isOpen) {
+                menu.classList.remove('max-h-0', 'opacity-0');
+                menu.classList.add('max-h-96', 'opacity-100');
+                // Change icon to X (we re-render lucide icon)
+                btn.innerHTML = '<i data-lucide="x"></i>';
+                lucide.createIcons();
+            } else {
+                menu.classList.add('max-h-0', 'opacity-0');
+                menu.classList.remove('max-h-96', 'opacity-100');
+                // Change icon back to Menu
+                btn.innerHTML = '<i data-lucide="menu"></i>';
+                lucide.createIcons();
+            }
+        });
+    </script>
+</body>
+</html>
